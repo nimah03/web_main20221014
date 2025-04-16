@@ -8,3 +8,4 @@ function googleSearch() {
     window.open(googleSearchUrl, "_blank"); 
     return false;
 }
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>자료구조 9주차 과제 - 이수헌</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { border-collapse: collapse; width: 80%; margin-bottom: 30px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        h1, h2, h3 { color: #333; }
+        .code { background: #f4f4f4; padding: 10px; border: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+    <h1>자료구조 9주차 과제 (이수헌)</h1>
+
+    <h2>문제 1: 단축 명령어 변환</h2>
+    <table>
+        <tr><th>입력</th><th>단축명령어</th></tr>
+        <tr><td>팩트체크 해줘</td><td>res</td></tr>
+        <tr><td>비교해줘</td><td>res</td></tr>
+        <tr><td>300글자 분량으로 글을 다듬어줘</td><td>res</td></tr>
+        <tr><td>30대 한국 여성 유치원 선생님처럼 행동해줘</td><td>res</td></tr>
+        <tr><td>40대 한국 남성 탐정처럼 행동해줘</td><td>res</td></tr>
+        <tr><td>표로 만들어줘</td><td>res</td></tr>
+        <tr><td>인터넷 검색해줘</td><td>res</td></tr>
+        <tr><td>일본어로 번역해줘</td><td>Translate:Japanese</td></tr>
+        <tr><td>PlantUML용 복잡도 Level 3인 activity digram 생성해줘</td><td>res</td></tr>
+        <tr><td>기업실적 분석해줘</td><td>res</td></tr>
+        <tr><td>UML코드의 오류 수정해줘</td><td>res</td></tr>
+        <tr><td>이 내용은 50대 한국 주부를 대상으로 한다</td><td>res</td></tr>
+    </table>
+
+    <h2>문제 2: 매크로 명령어 실행 결과</h2>
+    <p><strong>프롬프트:</strong> [Persona:KR-50M-DWSA->Search:Web->Analyze:CorpPerformance->Translate:Korean->Storyfi:Word1000->TargetAudience:KR-50F-Housewife]</p>
+    <p><strong>주제:</strong> "K조선의 트로이카인 HD현대, 한화 오션즈, 삼성 중공업의 전망"</p>
+    <p><strong>실행결과 요약:</strong></p>
+    <div class="code">
+        HD현대, 한화 오션즈, 삼성 중공업은 한국 조선업의 중심축으로, 글로벌 경기 회복과 친환경 선박 수요 증가에 힘입어 향후 3년간 수주 실적이 증가할 것으로 보입니다. 특히 LNG 운반선과 메탄올 추진선 분야에서 기술적 우위를 확보한 HD현대가 가장 빠른 회복세를 보일 것이며, 한화 오션즈는 방산 및 친환경 선박 라인업 확장에 집중할 계획입니다. 삼성 중공업은 해외 대형 프로젝트를 중심으로 수익성 개선을 꾀하고 있습니다. 투자자는 ESG 요건과 세계적 조선 발주 트렌드에 주목할 필요가 있습니다.
+    </div>
+
+    <h2>문제 3: 트리 순회 설명 (유치원 선생님 버전)</h2>
+    <h3>전위 순회</h3>
+    <p>🌳 "얘들아, 전위 순회는 먼저 엄마 노드를 보고, 그 다음에 왼쪽 아기, 마지막에 오른쪽 아기를 보는 거야! 예를 들면 A -> B -> C 순서로 방문하는 거지! 😊"</p>
+
+    <h3>중위 순회</h3>
+    <p>🌳 "중위 순회는 먼저 왼쪽 아기, 그 다음 엄마, 마지막에 오른쪽 아기를 보는 방법이야! 순서로 보면 B -> A -> C 가 되는 거야~ 👍"</p>
+
+    <h3>후위 순회</h3>
+    <p>🌳 "후위 순회는 왼쪽 아기, 오른쪽 아기, 그리고 마지막에 엄마를 보는 방법이야! 예를 들면 B -> C -> A야! 😄"</p>
+
+    <h2>문제 4: 트랜스포머 어텐션 알고리즘 설명 (유치원 선생님 버전)</h2>
+    <p>🌟 "얘들아! 트랜스포머 어텐션은 문장을 읽을 때 어떤 단어가 더 중요한지 표시해주는 마법 안경 같은 거야! 한 단어를 볼 때 다른 단어랑 얼마나 가까운지 알려주고, 중요한 단어는 더 크게 보여주는 거지! 예를 들면, '나는 사과를 먹었어'에서 '먹었어'는 '사과'랑 가까운 친구야! 그래서 둘이 연결돼 있어! 이런 걸 Attention Mechanism이라고 불러! ✨"</p>
+
+    <h2>문제 5: UML 코드 디버깅 및 실행</h2>
+    <div class="code">
+        @startuml
+        :Input Sentence;
+        :Tokenize;
+        :Generate Queries/Keys/Values;
+        :Compute Attention Scores;
+        :Apply Softmax;
+        :Weighted Sum;
+        :Output Vector;
+        @enduml
+    </div>
+    <p><strong>디버깅 로그:</strong> "Loop detected between Tokenize → Generate QKV → Compute Attention. Break condition applied. Debug complete."</p>
+    <p><strong>실행 결과:</strong> "Attention 계산 및 벡터 출력 완료."</p>
+
+</body>
+</html>

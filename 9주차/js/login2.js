@@ -28,6 +28,10 @@ function init_logined(){
         alert("세션 스토리지 지원 x");
     }
 }
+document.addEventListener('DOMContentLoaded', () => {
+init_logined();
+});
+
 
 
 function session_set() { //세션 저장
